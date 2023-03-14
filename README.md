@@ -28,6 +28,7 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 -1 | false  
 -1.1 | false
 -2 | true
+-2.0 | true
 -2.2 | false
 -4.0
 
