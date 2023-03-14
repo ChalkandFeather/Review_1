@@ -1,32 +1,34 @@
-# Title
+# Title is_even
 
-School reports
+Description:
 
-# User story
+In this Kata we are passing a number (n) into a function.
+-------single number arguement (n)
 
-Client requires accumulated test results provided in a string "Green, Green, Amber, Red, Green"
-To be presented in the following format as a list.
-Green: 3
-Amber: 1
-Red:
+Your code will determine if the number passed is even (or not).
+---------- determin if (n) is even?
 
-In cases where user input includes non listed categories, the output will be counted under the category Uncounted.
-"Green,Dave,Whimsy,Red"
-"Green: 1\nRed: 1\nUncounted: 2"
+The function needs to return either a true or false.
 
-case variations should still be counted e.g
-green:
-Amber:
-rEd:
+---if it's even. return true
+---if it's odd. return false
 
-results not included in the input string should not be displayed on the output.
+Numbers may be positive or negative, integers or floats.
 
-# Input
+Floats with decimal part non equal to zero are considered UNeven for this kata.
 
-"Green, Green, Amber, Red, Green" - Categories of results
-Output
-"Green: 3\nAmber: 1\nRed:"
-Green: 3
-Amber: 1
-Red: 1
-Uncounted:
+# Input | # Output
+
+1 | false
+2 | true
+2.0 | true
+2.1 | false
+3.5 | false
+0 | false  
+-1 | false  
+-1.1 | false
+-2 | true
+-2.2 | false
+-4.0
+
+# Model
